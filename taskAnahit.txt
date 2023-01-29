@@ -1,0 +1,7 @@
+#!/bin/bash/
+for run {1160218..10160218}
+do
+echo $run
+touch $run
+done
+echo $(date+"%H%M%S")
