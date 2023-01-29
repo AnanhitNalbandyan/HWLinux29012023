@@ -5,3 +5,7 @@ echo $run
 touch $run
 done
 echo $(date+"%H%M%S")
+
+
+
+*/15 * * * * /opt/45_46_morning/anahit/taskAnahit.sh
